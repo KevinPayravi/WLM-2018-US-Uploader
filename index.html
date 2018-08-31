@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>WLM US - Upload</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Upload a media file for Wiki Loves Monuments 2018 in the United States.">
+		<meta name="keywords" content="wlm, wiki, loves, monuments, 2018, upload">
+		<meta name="author" content="Wiki Loves Monuments 2018 in the United States">
+		
+		<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Wiki_Loves_Monuments_2018_in_the_United_States_-_Logo_%28blank%29.svg/254px-Wiki_Loves_Monuments_2018_in_the_United_States_-_Logo_%28blank%29.svg.png" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<div style="width: 100%; text-align: center; padding-top: 30px;">
+			<a href="https://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2018_in_the_United_States"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Wiki_Loves_Monuments_2018_in_the_United_States_-_Logo_%28text_under%29.svg/216px-Wiki_Loves_Monuments_2018_in_the_United_States_-_Logo_%28text_under%29.svg.png" alt="Wiki Loves Monuments 2018 in the United States"></a>
+			<h3>Thanks for participating in Wiki Loves Monuments!</h3>
+
+			<h3>Use this portal to upload photos of monuments in the United States.<br>To help organize photos by type, please select the territory the monument is in and the upload button that applies to your photo:</h3>
+			
+			<br>
+			
+			<h2>Are you uploading a National Register of Historic Places (NRHP) photo?</h2>
+			<h3>Find your site using the <a href="http://npgallery.nps.gov/nrhp">NRHP Database</a>.<br>When uploading, please provide only the reference number (e.g. 12345678) when asked.</h3>
+			<form>
+				<select id="selectState">
+					<option value="Alabama">Alabama</option>
+					<option value="Alaska">Alaska</option>
+					<option value="Arizona">Arizona</option>
+					<option value="Arkansas">Arkansas</option>
+					<option value="California">California</option>
+					<option value="Colorado">Colorado</option>
+					<option value="Connecticut">Connecticut</option>
+					<option value="Delaware">Delaware</option>
+					<option value="Florida_(U.S._state)">Florida</option>
+					<option value="Georgia_(U.S._state)">Georgia</option>
+					<option value="Hawaii">Hawaii</option>
+					<option value="Idaho">Idaho</option>
+					<option value="Illinois">Illinois</option>
+					<option value="Indiana">Indiana</option>
+					<option value="Iowa">Iowa</option>
+					<option value="Kansas">Kansas</option>
+					<option value="Kentucky">Kentucky</option>
+					<option value="Louisiana">Louisiana</option>
+					<option value="Maine">Maine</option>
+					<option value="Maryland">Maryland</option>
+					<option value="Massachusetts">Massachusetts</option>
+					<option value="Michigan">Michigan</option>
+					<option value="Minnesota">Minnesota</option>
+					<option value="Mississippi">Mississippi</option>
+					<option value="Missouri">Missouri</option>
+					<option value="Montana">Montana</option>
+					<option value="Nebraska">Nebraska</option>
+					<option value="Nevada">Nevada</option>
+					<option value="New_Hampshire">New Hampshire</option>
+					<option value="New_Jersey">New Jersey</option>
+					<option value="New_Mexico">New Mexico</option>
+					<option value="New_York">New York</option>
+					<option value="North_Carolina">North Carolina</option>
+					<option value="North_Dakota">North Dakota</option>
+					<option value="Ohio">Ohio</option>
+					<option value="Oklahoma">Oklahoma</option>
+					<option value="Oregon">Oregon</option>
+					<option value="Pennsylvania">Pennsylvania</option>
+					<option value="Rhode_Island">Rhode Island</option>
+					<option value="South_Carolina">South Carolina</option>
+					<option value="South_Dakota">South Dakota</option>
+					<option value="Tennessee">Tennessee</option>
+					<option value="Texas">Texas</option>
+					<option value="Utah">Utah</option>
+					<option value="Vermont">Vermont</option>
+					<option value="Virginia">Virginia</option>
+					<option value="Washington">Washington</option>
+					<option value="Washington,_D.C.">Washington, D.C.</option>
+					<option value="West_Virginia">West Virginia</option>
+					<option value="Wisconsin">Wisconsin</option>
+					<option value="Wyoming">Wyoming</option>
+					<option value="Guam">Guam</option>
+					<option value="the_Northern_Mariana_Islands">Northern Mariana Islands</option>
+					<option value="Puerto_Rico">Puerto Rico</option>
+					<option value="the_United_States_Minor_Outlying_Islands">U.S. Minor Outlying Islands</option>
+					<option value="the_United_States_Virgin_Islands">U.S. Virgin Islands</option>
+				</select>
+				<br>
+				<a class="button" onClick="navigate()"><span style="color: white;">Submit Your NRHP Photo Here!</span></a>
+			</form>
+			
+			<br><br>
+			
+			<h2>Otherwise, select the state that your photo's subject is in:</h2>
+			<form>
+				<select id="selectState2">
+					<option value="Alabama">Alabama</option>
+					<option value="Alaska">Alaska</option>
+					<option value="Arizona">Arizona</option>
+					<option value="Arkansas">Arkansas</option>
+					<option value="California">California</option>
+					<option value="Colorado">Colorado</option>
+					<option value="Connecticut">Connecticut</option>
+					<option value="Delaware">Delaware</option>
+					<option value="Florida">Florida</option>
+					<option value="Georgia_(U.S._state)">Georgia</option>
+					<option value="Hawaii">Hawaii</option>
+					<option value="Idaho">Idaho</option>
+					<option value="Illinois">Illinois</option>
+					<option value="Indiana">Indiana</option>
+					<option value="Iowa">Iowa</option>
+					<option value="Kansas">Kansas</option>
+					<option value="Kentucky">Kentucky</option>
+					<option value="Louisiana">Louisiana</option>
+					<option value="Maine">Maine</option>
+					<option value="Maryland">Maryland</option>
+					<option value="Massachusetts">Massachusetts</option>
+					<option value="Michigan">Michigan</option>
+					<option value="Minnesota">Minnesota</option>
+					<option value="Mississippi">Mississippi</option>
+					<option value="Missouri">Missouri</option>
+					<option value="Montana">Montana</option>
+					<option value="Nebraska">Nebraska</option>
+					<option value="Nevada">Nevada</option>
+					<option value="New_Hampshire">New Hampshire</option>
+					<option value="New_Jersey">New Jersey</option>
+					<option value="New_Mexico">New Mexico</option>
+					<option value="New_York">New York</option>
+					<option value="North_Carolina">North Carolina</option>
+					<option value="North_Dakota">North Dakota</option>
+					<option value="Ohio">Ohio</option>
+					<option value="Oklahoma">Oklahoma</option>
+					<option value="Oregon">Oregon</option>
+					<option value="Pennsylvania">Pennsylvania</option>
+					<option value="Rhode_Island">Rhode Island</option>
+					<option value="South_Carolina">South Carolina</option>
+					<option value="South_Dakota">South Dakota</option>
+					<option value="Tennessee">Tennessee</option>
+					<option value="Texas">Texas</option>
+					<option value="Utah">Utah</option>
+					<option value="Vermont">Vermont</option>
+					<option value="Virginia">Virginia</option>
+					<option value="Washington">Washington</option>
+					<option value="Washington,_D.C.">Washington, D.C.</option>
+					<option value="West_Virginia">West Virginia</option>
+					<option value="Wisconsin">Wisconsin</option>
+					<option value="Wyoming">Wyoming</option>
+					<option value="Guam">Guam</option>
+					<option value="the_Northern_Mariana_Islands">Northern Mariana Islands</option>
+					<option value="Puerto_Rico">Puerto Rico</option>
+					<option value="the_United_States_Minor_Outlying_Islands">U.S. Minor Outlying Islands</option>
+					<option value="the_United_States_Virgin_Islands">U.S. Virgin Islands</option>
+				</select>
+				<br>
+				<a class="button" onClick="navigate2()"><span style="color: white;">Submit Your Photo Here!</span></a>
+			</form>
+			
+			<br><br><br><br>
+			
+			<h2>Is your territory not available in the list above?</h2>
+			<a class="button" href="https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&campaign=wlm-us-other"><span style="color: white;">Submit Your Photo Here!</span></a>
+			<br><br><br>
+			<script>
+				function navigate() {
+					var selectedOption = document.getElementById("selectState");
+					var selectedValue = selectedOption.options[selectedOption.selectedIndex].value;
+					window.location.href = 'https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&campaign=wlm-us&categories=Images_from_Wiki_Loves_Monuments_2018_in_' + selectedValue;
+				}
+				
+				function navigate2() {
+					var selectedOption = document.getElementById("selectState2");
+					var selectedValue = selectedOption.options[selectedOption.selectedIndex].value;
+					window.location.href = 'https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&campaign=wlm-us-other&categories=Images_from_Wiki_Loves_Monuments_2018_in_' + selectedValue;
+				}
+			</script>
+		</div>
+	</body>
+</html>

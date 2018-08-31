@@ -1,0 +1,33 @@
+body {
+	font-family: 'calibri', Calibri, Helvetica, Sans-Serif;
+}
+
+select {
+	appearance: button;
+	border: 1px solid #AAAAAA;
+	border-radius: 7px;
+	font-size: 115%;
+	margin: 20px;
+	padding: 5px 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 300px;
+}
+
+.button {
+	appearance: button;
+	background-color: #B22222;
+	border: none;
+	border-radius: 7px;
+	display: inline-block;
+	font-size: 130%;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.button:hover {
+	background-color: #9E0101;
+}
